@@ -1,0 +1,30 @@
+{
+  "name": "file-system-organizer",
+  "version": "1.0.0",
+  "description": "Simple command line based file system manager and organizer made with Node JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "manager",
+    "organizer",
+    "view",
+    "node"
+  ],
+  "author": "Ayan Gupta",
+  "license": "MIT",
+  "bin": {
+    "fso": "main.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.0",
+    "is-valid-path": "^0.1.1",
+    "readline-sync": "^1.4.10",
+    "table-scraper": "^1.0.3"
+  },
+  "devDependencies": {}
+}
